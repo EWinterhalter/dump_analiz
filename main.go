@@ -10,7 +10,6 @@ import (
 
 func main() {
 	if len(os.Args) < 2 {
-		fmt.Println("Использование: asa_parser <файл>")
 		os.Exit(1)
 	}
 	filename := os.Args[1]
